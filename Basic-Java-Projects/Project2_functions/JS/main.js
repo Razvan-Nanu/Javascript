@@ -4,3 +4,8 @@ function My_Function() {
     document.getElementById("Concatenate").innerHTML=sentence;
 } // This function will turn the p element with the id of 
   // Concatenate to call the sentence variable in its place.
+
+ function test_function() {
+    var X = document.getElementById("new-test")
+     X.style.color ="red"
+ }
