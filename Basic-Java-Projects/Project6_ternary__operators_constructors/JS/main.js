@@ -38,11 +38,11 @@ function Description(Age,Height,Gender) {
     this.Description_Gender=Gender;
 }
    
-var Max=new Description(19,"five foot",Male);
+var Max=new Description(19, "five foot", Male);
 
 function Customer_Function() {
-    document.getElementById("New_Cust").innerHTML=
-    Max.Description_Height;
+    document.getElementById("New_Cust").innerHTML=console.log(
+    Max.Description_Height);
 }//Above function does not work when I click the button. Nothing appears.
 
 function Multiply_Function() {
