@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Random</title>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    </head>
+    <body>
+   <script>
+       //---Start of JQuery---
+    $(document).ready(function() {
+        $("html").append(
+            "<body>\
+                <div id='container'>\
+                    <div id='inner'>\
+                        <h1>JQUERY</h1>\
+                        <p id='1'>par 1</p>\
+                        <p id='2'>par2</p>\
+                        <p id='3'>par3</p>\
+                    </div>\
+                </div>\
+            </body>"
+        );
+
+        $("#2").css({"color":"red"});
+        //--This will make paragraph 2 red
+        $("#3").click(function() {
+            $('h1').hide();
+        });
+        //Function will make the h1 hide when paragraph 3 is clicked
+        $("h1").css({"color":"blue"});
+      
+    });
+    //h1 will be blue
+   </script>
+   </body>
+</html>

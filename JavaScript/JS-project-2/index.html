@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <script src="./JS/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="POST" onsubmit="validate()" name="myForm">
+            <label for="fname" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">First Name:</label><br>
+            <input id="fname" type="text" name="name"><br>
+            <label for="lname" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Last Name:</label><br>
+            <input id="lname" type="text" name="name"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+<h2>Click to see a model car</h2>
+<ul>
+    <li onclick="Car_Function(this)" id="F-150" data-car-brand="Ford">F-150</li>
+    <li onclick="Car_Function(this)" id="M5" data-car-brand="BMW">M5</li>
+    <li onclick="Car_Function(this)" id="Corolla" data-car-brand="Toyota">Corolla</li>
+    <li onclick="Car_Function(this)" id="Camaro" data-car-brand="Chverlot" >Camaro</li>
+</ul>
+</body>
+</html>
